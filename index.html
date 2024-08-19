@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>QR Code Generator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1>QR Code Generator</h1>
+    <div class="text-area">
+        <label class="text-label" for="textInput">Enter text or link:</label>
+        <input id="textInput" placeholder="Enter text or link..." type="text">
+    </div>
+    <div class="upload-area">
+        <label class="upload-label" for="imageInput">Choose a custom image (optional):</label>
+        <input accept="image/*" id="imageInput" type="file">
+    </div>
+    <button class="generate-button" id="generateButton">Generate QR Code</button>
+    <div class="qr-code" id="result"></div>
+</div>
+<footer>
+    <p>Built by SUMIT MAURYA.</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
